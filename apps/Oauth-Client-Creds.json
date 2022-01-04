@@ -15,10 +15,10 @@
     },
     "oauth_meta": {
         "allowed_access_types": [
-            "client_credentials"
+            "Client Credentials"
         ],
         "allowed_authorize_types": [
-            "token"
+            "Token"
         ],
         "auth_login_redirect": ""
     },
