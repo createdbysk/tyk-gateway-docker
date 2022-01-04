@@ -18,5 +18,25 @@
       "quota_renewal_rate": 3600,
       "state": "active",
       "tags": ["Startup Users"]
-    }
+    }, 
+    "OauthClientCredsPolicy": {
+        "access_rights": {
+          "hello-world": {
+            "allowed_urls": ["/oauth-client-creds/"],
+            "api_id": "Oauth-Client-Creds",
+            "api_name": "Oauth Client Creds",
+            "versions": [
+                "Default"
+            ]
+          }
+        },
+        "active": true,
+        "name": "Oauth Client Creds Policy",
+        "rate": 100,
+        "per": 1,
+        "quota_max": 10000,
+        "quota_renewal_rate": 86400,
+        "state": "active",
+        "tags": ["Startup Users"]
+      }  
   }
