@@ -7,7 +7,7 @@ services:
     networks:
       - tyk
     volumes:
-      - ./tyk.standalone.conf:/opt/tyk-gateway/tyk.conf
+      - ./tyk.with_identity_broker.conf:/opt/tyk-gateway/tyk.conf
       - ./apps:/opt/tyk-gateway/apps
       - ./middleware:/opt/tyk-gateway/middleware
       - ./certs:/opt/tyk-gateway/certs
