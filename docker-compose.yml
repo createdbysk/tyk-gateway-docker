@@ -21,6 +21,18 @@ services:
       - tyk
     ports:
       - 6379:6379
+  tyk-identity-broker:
+    image: tykio/tyk-identity-broker:s1.2
+    ports:
+      - 3010:3010
+    networks:
+      - tyk
+    volumes:
+      - ./identity-broker/tib.conf:/opt/tyk-identity-broker/tib.conf
+      - ./identity-broker/profiles.json:/opt/tyk-identity-broker/profiles.json
+    depends_on:
+      - tyk-gateway
+      - tyk-redis
 
 networks:
   tyk:

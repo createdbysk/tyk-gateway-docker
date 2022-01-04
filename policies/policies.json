@@ -1,0 +1,22 @@
+{
+    "HelloWorldPolicy": {
+      "access_rights": {
+        "hello-world": {
+          "allowed_urls": ["/hello-world/"],
+          "api_id": "Hello-World",
+          "api_name": "Hello-World",
+          "versions": [
+              "Default"
+          ]
+        }
+      },
+      "active": true,
+      "name": "POLICY NAME",
+      "rate": 100,
+      "per": 1,
+      "quota_max": 10000,
+      "quota_renewal_rate": 3600,
+      "state": "active",
+      "tags": ["Startup Users"]
+    }
+  }
