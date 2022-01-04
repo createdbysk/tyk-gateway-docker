@@ -18,7 +18,8 @@
             "client_credentials"
         ],
         "allowed_authorize_types": [
-            "token"
+            "token",
+            "code"
         ],
         "auth_login_redirect": ""
     },
