@@ -1,7 +1,7 @@
 {
     "HelloWorldPolicy": {
       "access_rights": {
-        "hello-world": {
+        "Hello-World": {
           "allowed_urls": ["/hello-world/"],
           "api_id": "Hello-World",
           "api_name": "Hello-World",
@@ -21,7 +21,7 @@
     }, 
     "OauthClientCredsPolicy": {
         "access_rights": {
-          "hello-world": {
+          "Oauth-Client-Creds": {
             "allowed_urls": ["/oauth-client-creds/"],
             "api_id": "Oauth-Client-Creds",
             "api_name": "Oauth Client Creds",
